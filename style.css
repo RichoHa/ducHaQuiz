@@ -1,5 +1,5 @@
 :root{
-    background-color: indianred;
+    background-color: black;
 }
 
 .container {
@@ -22,7 +22,7 @@
 
 h1{
     font-size: 7rem;
-    color: indigo;
+    color: White;
 }
 
 .btn{
@@ -31,8 +31,8 @@ h1{
     width: 20rem;
     max-width: 20rem;
     text-align:center;
-    background-color: indigo;
-    color: indianred;
+    background-color: navy;
+    color: white;
     margin-bottom: 1rem;
     text-decoration: none;
     border-radius: 10px;
