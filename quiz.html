@@ -6,27 +6,27 @@
     <title>Quiz</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='../ducHaQuiz/quiz.css'>
-    <script src='quiz.js'></script>
+
 </head>
 <body>
-    <div class="startContainer">  S
+    <div id="startContainer">  
         <div id="startPage">
             <h1>Start Quiz?</h1>
-            <div class="btn" class="start">Start</div>
-            <div class="btn" class="highscore">Highscore</div>
+            <div class="btn" id="start">Start</div>
+            <div class="btn" id="highscore">Highscore</div>
         </div>
 
     </div>
 
-    <div class="quizContainer">
+    <div id="quizContainer" class="hide">
 
         <div class="header">
-            <a href="/hScore.html">Highscore</a>
+            <div class= "highscore">Highscore</div>
             <div class= "score">Score</div>
             <div class= "timer">Timer</div>
         </div>   
 
-        <div class="quizArea"></div>
+        <div class="quizArea">
             <div id="quizCard">
                 <div id="question">The question goes here.</div>
 
@@ -49,12 +49,9 @@
                     <p class="answerLetter">D</p>
                     <p class="answerText" data-number="4">Answer 4</p>
                 </div>
-                
             </div>
         </div>
-
-
     </div>
-
 </body>
+<script src='quiz.js'></script>
 </html>
