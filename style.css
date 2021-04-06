@@ -1,0 +1,85 @@
+/*Global Parameter*/
+:root{
+    background-color: rgb(61, 170, 233);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+button{
+    font-size: 1.5rem;
+    padding:.25rem 0;
+    width: 10rem;
+    max-width: 10rem;
+    text-align:center;
+    background-color:rgb(0, 78, 131);
+    color: white;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(0, 78, 131);
+    transition: transform 150ms;
+    transform: scale(1.05);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+/*Global Characteristics*/
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.flexRow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+/*header of page */
+
+#headerContainer{
+    justify-content: space-between;
+}
+
+/*Quiz Page/ Main Body*/
+
+#quizResponseCorrect{
+    width: 100%;
+    border-top: 5px solid rgb(6, 119, 44);
+    font-size: 2rem;
+    font-weight: 550;
+    color: rgb(6, 119, 44);
+}
+
+#quizResponseIncorrect{
+    width: 100%;
+    border-top: 5px solid rgb(202, 8, 8);
+    font-size: 2rem;
+    font-weight: 550;
+    color: rgb(202, 8, 8);
+}
